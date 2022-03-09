@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 import './App.css';
-
+import React from 'react';
 import'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
