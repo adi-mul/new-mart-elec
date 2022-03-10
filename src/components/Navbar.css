@@ -1,8 +1,7 @@
 .navbar{
     background: linear-gradient(110deg, #EEE2DC 57%,  #EDC7B7  57%);
     
-    margin-left: 2px;
-    margin-right: 2px;
+    
     
 
 }
@@ -25,8 +24,7 @@
     .navbar{
         background: linear-gradient(110deg, #EEE2DC 61%,  #EDC7B7  61%) !important;
         width: 498px;
-        margin-left: 2px;
-        margin-right: 2px;
+        
         
     
     }

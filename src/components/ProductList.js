@@ -3,6 +3,7 @@ import Product from "./Product"
 import './ProductList.css'
 import Title from './Title'
 import { ProductConsumer } from './Components'
+import { Link } from 'react-router-dom'
 
 export default class Product_list extends Component {
    
@@ -43,9 +44,9 @@ export default class Product_list extends Component {
 
 
         </div>
-       
+          
 
-          {/* Slide 3 */}
+          {/* Slide 4 */}
       <div className='productlist__ba'>
         <div className='productlist__main'>
             <div className='productlist__container'>
@@ -66,9 +67,27 @@ export default class Product_list extends Component {
             </div>
         </div>
       </div>
+
+      {/*SLide 3 */}
+          <div className='connect'>
+              <div className='connect__2'>
+                    <p>New Monitor Electronics always delivers more than expected.</p>
+                      <p className='connect__3'>Connect with us</p>
+               </div>
+               <Link to="www.linkedin.com/in/aditya-mulik-b112bb203">
+                <button className='connect__4'>Connect</button>
+                </Link>
+                <a className='connect__5' href=' '>Contact : 9423701609</a>
+                <a className='connect__6' href=' '>Email:mulikadi001@gmail.com</a>
+          </div>
+                  
+
+
+      {/* Slide 5*/ }
         <div className='page4'>
-          <h2 className='page4__h'>Contact : 9423701609</h2>
-          <h2 className='page4__h1'>Email:mulikadi001@gmail.com </h2>
+          <h2 className='pahe4__h'> Developer Contact</h2>
+          <h2 className='page4__h1'>Contact : 9423701609</h2>
+          <h2 className='page4__h2'>Email:mulikadi001@gmail.com </h2>
         </div>
       </React.Fragment>
     )

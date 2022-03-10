@@ -1,0 +1,17 @@
+.details__style{
+    background:linear-gradient(281deg, #EDC7B7  50%,  #EEE2DC 50%) ;
+    font-family: 'Roboto Condensed', sans-serif;
+     color: #AC3B61;
+     
+
+}
+@media screen and (max-width: 400px) {
+    .details__style{
+        background:linear-gradient(281deg, #EDC7B7  61%,  #EEE2DC 61%) ;
+        font-family: 'Roboto Condensed', sans-serif;
+         color: #AC3B61;
+         width: 500px;
+    
+    }
+
+}

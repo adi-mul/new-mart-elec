@@ -2,6 +2,12 @@
 @media screen and (max-width:400px) {
       
     .card{
+        color: #AC3B61;
+        background-color: blanchedalmond;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .card-footer-bold{
+        font-weight: bold;
         
     }
 }
@@ -9,4 +15,12 @@
 .card{
     margin-left: 30px ;
     margin-right: 30px;
-}
+    color: #AC3B61;
+        background-color: blanchedalmond;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .card-footer-bold{
+        font-weight: bold;
+        
+    }
