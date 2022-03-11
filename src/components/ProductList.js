@@ -74,9 +74,15 @@ export default class Product_list extends Component {
                     <p>New Monitor Electronics always delivers more than expected.</p>
                       <p className='connect__3'>Connect with us</p>
                </div>
-               <Link to="www.linkedin.com/in/aditya-mulik-b112bb203">
-                <button className='connect__4'>Connect</button>
-                </Link>
+               
+                <button className='connect__4'
+                type="button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='http://google.com';
+                  }}
+                >Connect</button>
+               
                 <a className='connect__5' href=' '>Contact : 9423701609</a>
                 <a className='connect__6' href=' '>Email:mulikadi001@gmail.com</a>
           </div>
