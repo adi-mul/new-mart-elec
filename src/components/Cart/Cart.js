@@ -5,10 +5,11 @@ import EmptyCart from './EmptyCart'
 import {ProductConsumer} from "../Components"
 import CartList from './CartList'
 import CartTotals from './CartTotals'
+import "./Cart.css"
 export default class Cart extends Component {
   render() {
     return (
-      <section>
+      <section className='cart'>
         <ProductConsumer>
           {value =>{
             const {cart }= value;

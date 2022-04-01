@@ -1,0 +1,72 @@
+.contact{
+    height: 800px;
+    background-color: #D0E0CE;
+}
+.con_1{
+    font-size: 90px;
+    position: absolute;
+    top:80px;
+    left:50px;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+}
+.con_2{
+    font-size: 50px;
+    position: absolute;
+    top:400px;
+    left:700px;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+}
+.con_3{
+    font-size: 50px;
+    position: absolute;
+    top:500px;
+    left:700px;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+}
+
+
+
+.image1{
+    position: absolute;
+width: 82px;
+height: 82px;
+left: 595px;
+top: 10px;
+}
+.image2{
+    position: absolute;
+width: 82px;
+height: 82px;
+left: 895px;
+top: 195px;
+}
+.image3{
+    position: absolute;
+width: 82px;
+height: 82px;
+left: 595px;
+top: 295px;
+transform: rotate(-30deg);
+}
+.image4{
+    position: absolute;
+width: 82px;
+height: 82px;
+left: 895px;
+top: 595px;
+transform: rotate(-60deg);
+}
+.image5{
+    position: absolute;
+width: 82px;
+height: 82px;
+left: 595px;
+top: 695px;
+transform: rotate(-60deg);
+}

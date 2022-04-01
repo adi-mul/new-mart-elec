@@ -12,38 +12,54 @@ export default class Product_list extends Component {
     return (
       //<Product/>
       <React.Fragment>
-        <div className='page1'>
-            <div className='page1__main'>
-                <h1 className='page1__head'>New Monitor Electronics</h1>
-                
-                <p className='page1__para'>
-                We are a leading Manufacturer of Power Control Switch,
-                HT Control Switch, LT Control Switch, Automatic Control 
-                Switch, Touch Remote Switch and Wireless Module Remote
-                Switch from Ahmednagar, India.
-                </p>
-                <img className='page1__img' src={"./pcb3.png"} alt=''/>
-            </div>
-        </div>
-        {/* Slide 2*/}
-        <div className='page2'>
-            <div className='page2__container'>
-              <div className='page2__cont'>
-              <h1 className='page2__head' >Company Vision</h1>
-              <p className='page2__para'>
-                Company is focused on developing industrial products that will benefit the socitey.
-                Company mainly focused on developing agro related products that will make the 
-                work of the farmer easy 
-                The Company also develop systems and products on the user requirment.New Mart Electronics
-                focuses on developing world class product and give the best services. 
-
+        <div className='page__1'>
+          <div>
+              <h1 className='page__1h'>New <br/> Monitor<br/> Electronics</h1>
+              <Link to="/cart">
+              <p className='nav_1'>Products</p>
+              </Link>
+              <Link to="/contact">
+              <p className='nav_2'>Contact</p>
+              </Link>
+              <img src={'./tra.png'} alt="store" className='image1'/>
+              <img src={'./tra.png'} alt="store" className='image2'/>
+              <img src={'./tra.png'} alt="store" className='image3'/>
+              <img src={'./tra.png'} alt="store" className='image4'/>
+              <img src={'./tra.png'} alt="store" className='image5'/>
+              <img src={'./tra.png'} alt="store" className='image6'/>
+              <img src={'./tra.png'} alt="store" className='image7'/>
+              <img src={'./tra.png'} alt="store" className='image8'/>
+              <img src={'./tra.png'} alt="store" className='image9'/>
+              <img src={'./tra.png'} alt="store" className='image10'/>
+              <p className='para_1'>
+              We are a leadingManufacturer of <br/>
+              Power Control Switch, HT Control <br/>
+              Switch,LT Control Switch,Automatic <br/>
+              Control Switch, Touch Remote Switch<br/>
+              and Wireless Module Remote Switch <br/>
+              from Ahmednagar, India.
               </p>
-              </div>
-              <img className='page2__img' src={"./robot3.png"} alt=''/>
-            </div>
+              <h2 className='page__2h' >Company Vision</h2>
 
+              <p className='para_2'>
+              Company is focused on developing <br/>
+              industrial products that will <br/>
+              benefit the socitey.Company mainly<br/>
+              focused on developing agro related <br/>
+              products that will make the work<br/>
+              of the farmer easy 
+              </p>
 
+              <p className='para_3'>The Company also develop systems<br/>
+                and products on the user requirment.<br/>
+                New Mart Electronics focuses on <br/>
+                developing world class product and<br/>
+                 give the best services.</p>
+          </div>
         </div>
+
+
+        
           
 
           {/* Slide 4 */}
@@ -69,32 +85,13 @@ export default class Product_list extends Component {
       </div>
 
       {/*SLide 3 */}
-          <div className='connect'>
-              <div className='connect__2'>
-                    <p>New Monitor Electronics always delivers more than expected.</p>
-                      <p className='connect__3'>Connect with us</p>
-               </div>
-               
-                <button className='connect__4'
-                type="button"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.location.href='http://google.com';
-                  }}
-                >Connect</button>
-               
-                <a className='connect__5' href=' '>Contact : 9423701609</a>
-                <a className='connect__6' href=' '>Email:mulikadi001@gmail.com</a>
-          </div>
-                  
-
-
-      {/* Slide 5*/ }
-        <div className='page4'>
-          <h2 className='pahe4__h'> Developer Contact</h2>
-          <h2 className='page4__h1'>Contact : 9423701609</h2>
-          <h2 className='page4__h2'>Email:mulikadi001@gmail.com </h2>
-        </div>
+      <div className='footer'>
+        <h3 className='f__1'>Email:mulikadi001@gmail.com</h3>
+        <h3 className='f__2'>Contacts:9423701609</h3>
+        <h3 className='f__3'>Address:New Monitor Electronics<br/>
+            Savedi, Ahmednagar, Maharashtra</h3>
+      </div>
+          
       </React.Fragment>
     )
   }

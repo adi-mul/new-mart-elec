@@ -7,10 +7,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav className='navbar'>
-        <Link to="/">
-        <img src={'./n13.png'}
-          alt="store" className='navbar-brand'/>
-        </Link>
+        
         <ul className="navbar-nav  align-items-center">
           <li className='nav-item ml-5v '>
             
@@ -19,15 +16,22 @@ export default class Navbar extends Component {
               </Link>
               
           </li>
-
+          
         </ul>
         <Link to="/cart" className="ml-auto">
-          <ButtonContainer>
-            <span className='mr-2'>
-            <i className='fas fa-cart-plus '/>Cart
-            </span>
-          </ButtonContainer>
-        </Link>
+          <button className='cart__button'>
+            
+            Cart
+            
+          </button>
+          </Link>
+          <button className='product__btn'>
+            Products
+          </button>
+          <button className='product__btn2'>
+            Services
+          </button>
+        
 
         
       </nav>
