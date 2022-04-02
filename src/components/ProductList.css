@@ -282,18 +282,9 @@ max-width: 1540 !important;
     background: #D0E0CE;
 }
 
-@media screen and (max-width: 400px) {
-.productlist__main{
-   
-    margin-left:20px;
-    
-}  
-.productlist__ba{
-    background:linear-gradient(266deg, #EDC7B7  30%,  #EEE2DC 30%) ;
-    width: 500px;
-} 
+ 
 
-}
+
 
 
 
