@@ -479,6 +479,9 @@ color: #000000;
     font-style: normal;
     left: 240px;
 }
+.productlist__ba{
+    width: 360px !important;
+}
   }
 
 
