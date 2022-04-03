@@ -197,7 +197,7 @@ color: #000000;
 }
 
 .footer{
-    background: #9dbf99;
+    background-color: #9dbf99 !important;
     height: 220px;
     
 }
@@ -227,8 +227,259 @@ color:#07130D;
 }
 
 
+/******************************Mobile part*****************************************/
+@media only screen and (max-width: 360px) {
+    .page__1{
+        position: absolute;
+        width: 360px;
+        height: 980px;
+        
+        background: #D0E0CE;
+    
+    }
+   
+   
+   
+    .nav_1{
+        position: absolute;
+width: 66px;
+height: 16px;
+left: 189px;
+top: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+    }
+
+    .nav_2{
+        position: absolute;
+width: 67px;
+height: 12px;
+left: 283px;
+top: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+    }
+
+    .page__1h{
+
+        position: absolute;
+width: 287px;
+height: 29px;
+left: 36px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
 
 
+color: #000000;
+
+    }
+
+.image1{
+position: absolute !important;
+width: 40px!important;
+height: 38.1px !important;
+left: 97px !important;
+top: 28px !important;
+}
+.image2{
+position: absolute !important;
+width: 40px !important;
+height: 38.1px !important;
+left: 209.69px !important;
+top: 125.99px !important;
+transform: rotate(-20deg) !important;
+ }
+.image3{
+position: absolute !important;
+width: 40px !important;
+height: 38.1px !important;
+left: 90.16px !important;
+top: 172.55px !important;
+transform: rotate(-30deg) !important;
+}
+.image4{
+position: absolute !important;
+width: 40px !important;
+height: 38.1px !important;
+left: 207.44px !important;
+top: 337.31px !important;
+transform: rotate(-40deg) !important;
+}
+.image5{
+position: absolute !important;
+width: 40px !important;
+height: 38.1px !important;
+left: 89.55px !important;
+top: 377.12px !important;
+transform: rotate(-50deg) !important;
+}
+.image6{
+position: absolute;
+width: 40px;
+height: 38.1px;
+left: 228.66px;
+top: 428.87px;
+transform: rotate(17.51deg);
+}
+.image7{   
+position: absolute;
+width: 40px;
+height: 38.1px;
+left: 95.9px;
+top: 482.02px;
+transform: rotate(-24.53deg);
+}
+.image8{
+position: absolute;
+width: 40px;
+height: 38.1px;
+left: 220px;
+top: 635.67px;
+transform: rotate(-8.15deg);
+}
+.image9{
+position: absolute;
+width: 40px;
+height: 38.1px;
+left: 117.38px;
+top: 680px;
+transform: rotate(25.47deg);
+}
+.image10{
+position: absolute;
+width: 40px;
+height: 38.1px;
+left: 225px;
+top: 742.6px;
+transform: rotate(-15.37deg);
+}
+
+.para_1{
+    position: absolute;
+width: 247px;
+height: 133px;
+left: 65px;
+top: 203px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #000000;
+}
+.page__2h{
+    position: absolute;
+width: 183px;
+height: 29px;
+left: 84px;
+top: 398px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.para_2{
+    position: absolute;
+width: 264px;
+height: 153px;
+left: 51px;
+top: 515px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #000000;
+}
+
+.para_3{
+    position: absolute;
+width: 141px;
+height: 101px;
+left: 102px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #000000;
+
+}
+
+/***************************************Product ***************************************/
+.productlist__ba{
+    position: absolute;
+    top:980px;
+}
+
+
+/***************************************Footer*****************************************/
+.footer{
+    position: absolute;
+    top:400px;
+    background-color: #9dbf99 !important;
+
+}
+.f__1{
+    position:absolute;
+    top:2900px;
+    font-size: 15px;
+    font-family: 'Arial';
+    font-style: normal;
+    left: 20px;
+}
+.f__2{
+    position:absolute;
+    top:2920px;
+    font-size: 15px;
+    font-family: 'Arial';
+    font-style: normal;
+    left: 20px;
+}
+.f__3{
+    position:absolute;
+    top:2900px;
+    font-size: 15px;
+    font-family: 'Arial';
+    font-style: normal;
+    left: 240px;
+}
+  }
 
 
 
@@ -279,7 +530,7 @@ padding-bottom: 5px;
 max-width: 1540 !important;
 }
 .productlist__ba{
-    background: #D0E0CE;
+    background-color: #D0E0CE;
 }
 
  
